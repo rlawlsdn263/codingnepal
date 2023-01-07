@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coding Nepal</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/babe730581.js" crossorigin="anonymous"></script>
+  <script src="./main.js" defer></script>
+</head>
+<body>
+  <!-- 이미지 래퍼 -->
+  <div class="wrapper">
+    <div class="gallery">
+      <div class="image"><span><img src="./imgs/london.jpg" alt="london" /></span></div>
+      <div class="image"><span><img src="./imgs/tokyo.jpg" alt="tokyo" /></span></div>
+      <div class="image"><span><img src="./imgs/seoul.jpg" alt="seoul" /></span></div>
+      <div class="image"><span><img src="./imgs/madrid.jpg" alt="madrid" /></span></div>
+      <div class="image"><span><img src="./imgs/paris.jpg" alt="paris" /></span></div>
+      <div class="image"><span><img src="./imgs/newyork.jpg" alt="newyork" /></span></div>
+    </div>
+  </div>
+  
+  <!-- 이미지 모달창 -->
+  <div class="image-modal-wrapper">
+    <div class="image-top">      
+      <span class="image-number"></span>
+      <button class="image-cancel" type="button"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <img class="image" src="./imgs/seoul.jpg" alt="서울" />
+    <button class="button-left"><i class="fa-solid fa-arrow-left"></i></button>
+    <button class="button-right"><i class="fa-solid fa-arrow-right"></i></button>
+  </div>
+</body>
+</html>
